@@ -14,6 +14,11 @@ text-align: center;
 margin-top: 25px;
 }
 
+.site-title:focus
+{
+outline: 2px solid orange;
+}
+
 .about
 {
 max-width: 1180px;
@@ -53,6 +58,11 @@ max-width: 260px;
 .section-link:hover
 {
 background-color: #82A417;
+}
+
+.section-link:focus
+{
+outline: 2px solid orange;
 }
 
 .brand-color
@@ -96,6 +106,10 @@ color: #A4C639;
 
 .footer-list .footer-item:hover{
 color: #82A417;
+}
+
+.footer-list .footer-item:focus{
+outline: 2px solid orange;
 }
 
 @media only screen and (max-width: 600px) {
